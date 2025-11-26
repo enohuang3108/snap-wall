@@ -49,6 +49,10 @@ jobs:
 
       - name: Build Frontend (Production)
         run: pnpm run build:production
+        env:
+          VITE_API_URL: https://snap-wall-api-production.oddlabcc.workers.dev
+          VITE_WS_URL: wss://snap-wall-api-production.oddlabcc.workers.dev
+          VITE_BACKEND_URL: https://snap-wall-api-production.oddlabcc.workers.dev
 
       - name: Deploy Frontend to Production
         run: npx wrangler deploy

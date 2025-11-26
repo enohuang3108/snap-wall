@@ -49,6 +49,10 @@ jobs:
 
       - name: Build Frontend (Beta)
         run: pnpm run build
+        env:
+          VITE_API_URL: https://snap-wall-api-beta.oddlabcc.workers.dev
+          VITE_WS_URL: wss://snap-wall-api-beta.oddlabcc.workers.dev
+          VITE_BACKEND_URL: https://snap-wall-api-beta.oddlabcc.workers.dev
 
       - name: Deploy Frontend to Beta
         run: npx wrangler deploy
