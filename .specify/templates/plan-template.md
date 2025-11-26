@@ -31,7 +31,36 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+根據 `.specify/memory/constitution.md` 檢查以下原則合規性：
+
+### 代碼品質檢查
+- [ ] 遵循單一職責原則
+- [ ] 命名清晰且具描述性
+- [ ] 避免過早優化
+- [ ] 符合專案編碼風格
+
+### 測試驅動開發檢查
+- [ ] 測試優先策略已規劃
+- [ ] 測試覆蓋率目標設定（核心邏輯 ≥ 80%）
+- [ ] 包含單元、整合和契約測試計畫
+
+### 使用者體驗檢查
+- [ ] 設計系統已定義或複用
+- [ ] 無障礙性要求（WCAG 2.1 AA）已考慮
+- [ ] 錯誤處理和使用者回饋機制已設計
+- [ ] 響應式設計已規劃
+
+### 效能標準檢查
+- [ ] API 響應時間目標 < 200ms (95th percentile)
+- [ ] 前端效能目標已設定（FCP < 1.5s）
+- [ ] 資源使用限制已定義
+- [ ] 擴展性需求已評估
+
+### 安全性檢查
+- [ ] 輸入驗證策略已規劃
+- [ ] 常見攻擊防護（XSS, SQL Injection, CSRF）已考慮
+- [ ] 敏感資料保護機制已設計
+- [ ] 權限控制已定義
 
 ## Project Structure
 
