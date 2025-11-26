@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "snap-wall",
+  "name": "snap-wall-beta",
   "main": "@tanstack/react-start/server-entry",
   "compatibility_date": "2024-11-17",
   "compatibility_flags": ["nodejs_compat"],
