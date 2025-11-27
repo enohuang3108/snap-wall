@@ -41,6 +41,11 @@ name = "EVENT_ROOM"
 class_name = "EventRoom"
 script_name = "snap-wall-api-beta"
 
+# Routes for beta
+routes = [
+	{ pattern = "beta.snap-wall-api.oddlabcc.cc", custom_domain = true }
+]
+
 # Production environment
 [env.production]
 name = "snap-wall-api-production"
@@ -56,3 +61,8 @@ id = "a53f2a1e4769418480108ab9df6716b3"
 name = "EVENT_ROOM"
 class_name = "EventRoom"
 script_name = "snap-wall-api-production"
+
+# Routes for production
+routes = [
+	{ pattern = "snap-wall-api.oddlabcc.cc", custom_domain = true }
+]
