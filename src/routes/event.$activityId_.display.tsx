@@ -152,7 +152,7 @@ function DisplayPage() {
           <div className="flex items-center justify-between max-w-screen-2xl mx-auto">
             <div className="flex items-center gap-6">
               <h2 className="text-xl font-heading font-bold text-text-main tracking-tight">
-                Snap<span className="text-primary">Wall</span>
+                Memento
               </h2>
               <div className="h-6 w-px bg-slate-300"></div>
               <div>

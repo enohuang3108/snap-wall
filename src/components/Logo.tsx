@@ -6,7 +6,7 @@ export function Logo() {
       <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
         <img src="/favicon.webp" alt="Logo" className="w-6 h-6" />
         <h1 className="hidden md:block text-2xl font-heading font-bold text-text-main tracking-tight">
-          Snap<span className="text-primary">Wall</span>
+          Memento
         </h1>
       </Link>
     </div>
