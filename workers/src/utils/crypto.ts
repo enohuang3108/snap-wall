@@ -3,7 +3,7 @@
  * Uses XOR cipher with a static key + Base64 encoding
  */
 
-const KEY = 'snap-wall-secret-key-2024'
+const KEY = 'memento-secret-key-2024'
 
 export function encryptId(text: string): string {
   if (!text) return ''

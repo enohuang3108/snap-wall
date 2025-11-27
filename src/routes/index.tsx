@@ -95,7 +95,7 @@ function HomePage() {
           </div>
 
           <h2 className="text-6xl lg:text-7xl font-heading font-bold text-text-main mb-6 tracking-tight leading-tight">
-            Snap<span className="text-primary">Wall</span>
+            Memento
           </h2>
           <p className="text-lg text-text-muted font-body mb-8 leading-relaxed max-w-md">
             打造您的專屬即時照片牆，讓每一刻精彩瞬間即時分享

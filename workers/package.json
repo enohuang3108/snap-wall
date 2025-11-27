@@ -1,5 +1,5 @@
 {
-  "name": "snap-wall-workers",
+  "name": "memento-workers",
   "private": true,
   "type": "module",
   "scripts": {

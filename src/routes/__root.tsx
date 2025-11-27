@@ -26,7 +26,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'SnapWall - 專屬即時照片牆',
+        title: 'Memento - 專屬即時照片牆',
       },
     ],
     links: [

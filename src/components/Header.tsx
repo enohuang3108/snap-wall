@@ -19,7 +19,7 @@ export default function Header() {
         <h1 className="ml-4 text-xl font-heading font-bold text-text-main tracking-tight">
           <Link to="/" className="flex items-center gap-2">
             <span className="text-primary hover:text-primary-hover transition-colors">
-              SnapWall
+              Memento
             </span>
           </Link>
         </h1>
